@@ -122,8 +122,20 @@
               "devServerTarget": "nyksus:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "repo": "https://github.com/nyksus/nyksus.github.io.git",
+            "message": "deployed using gh-pages",
+            "branch": "master",
+            "silent": true,
+            "dotfiles": true,
+            "cname": "www.nyksus.com"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "nyksus"
 }
