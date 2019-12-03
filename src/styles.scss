@@ -30,3 +30,6 @@ $nyksus-theme: mat-light-theme($nyksus-primary, $nyksus-accent, $nyksus-warn);
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.title { color: white;}
+.fill { flex: 1 1 auto;}
+.header { width: 1200px;}
